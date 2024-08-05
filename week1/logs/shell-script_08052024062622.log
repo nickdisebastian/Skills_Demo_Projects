@@ -1,0 +1,66 @@
+Start data download
+--2024-08-05 06:26:22--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2020&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/week1/input/2020.csv’
+
+     0K .......... .......... .......... .......... ..........  500K
+    50K .......... .......... .......... .......... .......... 1019K
+   100K .......... .......... .......                          57.2M=0.1s
+
+2024-08-05 06:26:25 (854 KB/s) - ‘/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/week1/input/2020.csv’ saved [130712]
+
+--2024-08-05 06:26:25--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2021&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/week1/input/2021.csv’
+
+     0K .......... .......... .......... .......... ..........  431K
+    50K .......... .......... .......... .......... .......... 1.00M
+   100K .......... .......... ...                              50.1M=0.2s
+
+2024-08-05 06:26:26 (749 KB/s) - ‘/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/week1/input/2021.csv’ saved [126714]
+
+--2024-08-05 06:26:26--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2022&Month=2&Day=14&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/week1/input/2022.csv’
+
+     0K .......... .......... .......... .......... ..........  433K
+    50K .......... .......... .......... .......... .......... 1.00M
+   100K .......... .......... ...                              80.8M=0.2s
+
+2024-08-05 06:26:28 (752 KB/s) - ‘/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/week1/input/2022.csv’ saved [126636]
+
+Virtual environment created.
+Collecting pandas (from -r requirements.txt (line 1))
+  Using cached pandas-2.2.2-cp312-cp312-macosx_11_0_arm64.whl.metadata (19 kB)
+Collecting numpy>=1.26.0 (from pandas->-r requirements.txt (line 1))
+  Using cached numpy-2.0.1-cp312-cp312-macosx_14_0_arm64.whl.metadata (60 kB)
+Collecting python-dateutil>=2.8.2 (from pandas->-r requirements.txt (line 1))
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas->-r requirements.txt (line 1))
+  Using cached pytz-2024.1-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas->-r requirements.txt (line 1))
+  Using cached tzdata-2024.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas->-r requirements.txt (line 1))
+  Using cached six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Using cached pandas-2.2.2-cp312-cp312-macosx_11_0_arm64.whl (11.3 MB)
+Using cached numpy-2.0.1-cp312-cp312-macosx_14_0_arm64.whl (5.0 MB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached pytz-2024.1-py2.py3-none-any.whl (505 kB)
+Using cached tzdata-2024.1-py2.py3-none-any.whl (345 kB)
+Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: pytz, tzdata, six, numpy, python-dateutil, pandas
+Successfully installed numpy-2.0.1 pandas-2.2.2 python-dateutil-2.9.0.post0 pytz-2024.1 six-1.16.0 tzdata-2024.1
+
+[notice] A new release of pip is available: 24.0 -> 24.2
+[notice] To update, run: pip install --upgrade pip
+Start to run python script
+PROGRAM RAN SUCCESSFULLY
