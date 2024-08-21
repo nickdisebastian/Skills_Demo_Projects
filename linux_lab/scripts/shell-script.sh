@@ -6,11 +6,11 @@ filenametime1=$(date +"%m%d%Y%H%M%S")
 
 ################################################
 #SET PROGRAM VARIABLES
-export BASE_FOLDER='/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/week1'
-export SCRIPTS_FOLDER='/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/week1/scripts'
-export INPUT_FOLDER='/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/week1/input'
-export OUTPUT_FOLDER='/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/week1/output'
-export LOG_FOLDER='/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/week1/logs'
+export BASE_FOLDER='/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/linux_lab'
+export SCRIPTS_FOLDER='/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/linux_lab/scripts'
+export INPUT_FOLDER='/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/linux_lab/input'
+export OUTPUT_FOLDER='/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/linux_lab/output'
+export LOG_FOLDER='/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/linux_lab/logs'
 export SHELL_SCRIPT_NAME='shell-script'
 export LOG_FILE=${LOG_FOLDER}/${SHELL_SCRIPT_NAME}_${filenametime1}.log
 export VENV_DIR='venv'
