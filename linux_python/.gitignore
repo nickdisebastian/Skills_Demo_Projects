@@ -1,8 +1,0 @@
-venv/
-env/
-ENV/
-.venv/
-.env/
-.venv.bak/
-.env.bak/
-.DS_Store

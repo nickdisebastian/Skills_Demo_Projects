@@ -1,0 +1,15 @@
+linux_python/venv/
+linux_python/env/
+linux_python/ENV/
+linux_python/.venv/
+linux_python/.env
+linux_python/.venv.bak/
+linux_python/.env.bak/
+linux_python/.DS_Store/
+python_cloud_project/venv/
+python_cloud_project/log/
+python_cloud_project/aws
+python_lambda_project/.env
+python_lambda_project/venv/
+python_lambda_project/log/
+python_lambda_project/my-lambda-layer/aws-layer/
