@@ -6,8 +6,8 @@ import glob
 import os
 
 #set program variables
-input_path = '/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/week1/input'
-output_path = '/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/week1/output'
+input_path = '/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/linux_lab/input'
+output_path = '/Users/nickdisebastian/WeCloudDataEngineering/WCD_Assignments/mini_projects/linux_lab/output'
 filename = 'all_years.csv'
 csvs = glob.glob(os.path.join(input_path, "*.csv"))
 #test printing csvs to understand the above line

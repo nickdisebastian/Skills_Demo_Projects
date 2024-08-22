@@ -1,8 +1,8 @@
-venv/
-env/
-ENV/
-.venv/
-.env/
-.venv.bak/
-.env.bak/
-.DS_Store
+**/venv
+**/.env
+*.bak
+linux_python/.DS_Store
+**/logs
+**/log
+python_cloud_project/aws
+**/aws-layer
