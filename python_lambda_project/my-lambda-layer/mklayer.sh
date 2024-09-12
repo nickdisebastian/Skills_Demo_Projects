@@ -5,4 +5,4 @@ sudo apt install zip
 mkdir -p aws-layer/python/lib/python3.12/site-packages
 pip3 install -r requirements.txt --target aws-layer/python/lib/python3.12/site-packages
 cd aws-layer
-zip -r9 lambda-layer.zip . ./home/ubuntu/python_lambda_project/my-lambda-layer
+zip -r lambda-layer.zip . ./home/ubuntu/python_lambda_project/my-lambda-layer
