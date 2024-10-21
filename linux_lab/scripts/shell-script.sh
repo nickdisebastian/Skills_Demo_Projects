@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ################################################
 #RUN PYTHON SCRIPT
-echo "Start to run python script"
+echo "Start running python script"
 python3 ${SCRIPTS_FOLDER}/python-script.py
 
 RC1=$?

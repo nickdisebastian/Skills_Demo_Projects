@@ -37,7 +37,7 @@ if __name__=="__main__":
     order by 2 desc
     limit 10;
     """
-    engine = mysql_connect(host, user, password, port,schema)
+    engine = mysql_connect(host, user, password, port, schema)
 
     df = pd.read_sql(sql, con = engine)
     df[["customerID"]].head()
