@@ -1,8 +1,12 @@
-# WCD Data Engineering Python Cloud Lambda Mini-Project
+# Python Cloud Lambda Mini-Project
 
 ## Project Description
 
-This project reads customerID data from an AWS MySQL RDS, converts the results to a JSON file and stores it an S3 bucket. The file apost to the S3 bucket triggers a lambda function which queries the RDS DB based on the data in the customerID JSON. The resulting customerDetails JSON is then posted to an API.
+This project reads customerID data from an AWS MySQL RDS, converts the results to a JSON file and stores it an S3 bucket. The file post to the S3 bucket triggers a lambda function which queries the RDS DB based on the data in the customerID JSON. The resulting customerDetails JSON is then posted to an API.
+
+![Project Structure][def]
+
+[def]: ./images/project_structure.png
 
 ## Running the Project
 # Project setup

@@ -18,7 +18,6 @@ rm awscliv2.zip
 rm -r aws
 echo $(aws --version) installed successfully
 
-
 #install and setup virtual environment
 sudo apt install python3-venv
 python3 -m venv venv
@@ -28,7 +27,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 deactivate 
 
-#update permissions and execute run file
+#update permissions for run file
 chmod a+x run.sh
 
 #make log directory
