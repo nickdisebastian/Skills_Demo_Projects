@@ -6,3 +6,4 @@ linux_python/.DS_Store
 **/log
 python_cloud_project/aws
 **/aws-layer
+.project 
