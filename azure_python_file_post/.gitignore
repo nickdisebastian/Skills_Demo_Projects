@@ -1,0 +1,4 @@
+.env
+jobs.csv
+log/
+venv/
